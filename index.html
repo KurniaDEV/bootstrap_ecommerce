@@ -22,11 +22,11 @@
         <div class="container-fluid bg-dark">
             <div class="row">
                 <!-- logo -->
-                <div class="col-2">
-                    <img src="asset/images/grobmart.png" alt="logo" width="98" height="auto" class=" m-sm-4">
+                <div class="col-2 col-sm-2">
+                    <img src="asset/images/grobmart.png" alt="logo" width="98" class=" m-sm-4">
                 </div>         
                 <!-- search -->
-                <div class="col-6">
+                <div class="col-sm-6">
                     <form class="form-inline my-2 my-lg-0">
                         <input class="form-control form-block mr-sm-2 mt-sm-4 w-75" type="search" placeholder="mau beli buku apa hari ini ?" aria-label="Search">
                         <button class="btn btn-outline-success my-2 my-sm-0 mt-sm-4" type="submit"><i class="fa fa-search" aria-hidden="true"></i>
@@ -34,13 +34,13 @@
                     </form>
                 </div>
                 <!-- account& -->
-                <div class="col-4">
+                <div class="col-sm-4">
                     <div class="container">
                         <div class="row">
                             <!-- user account -->
-                            <div class="col-5 mt-sm-4">
+                            <div class="col-sm-5 mt-sm-4">
                                 <!-- cart -->
-                                <a href="http://" style="color: black;">
+                                <a href="#" style="color: black;">
                                     <i class="fa fa-shopping-basket" style="font-size: 40px; color: #000;" aria-hidden="true"></i>
                                     
                                 </a>
@@ -48,12 +48,12 @@
                                 <i class="fa fa-user-circle px-4" style="font-size: 40px; color: #000;" aria-hidden="true"></i>
                             </div>
                             <!-- register -->
-                            <div class="col-7 p-0">
+                            <div class="col-sm-7 p-0">
                                 <p class="text-muted m-0">Selamat datang</p>
                                 <span>
-                                    <a href="http://" class="float-left">Daftar</a>
+                                    <a href="#" class="float-left">Daftar</a>
                                     <p class="float-left">&nbsp;|&nbsp;</p>
-                                    <a href="http://" class="float-left">Login</a>
+                                    <a href="#" class="float-left">Login</a>
                                 </span>
                                 <div class="clearfix"></div>
                             </div>
@@ -64,17 +64,22 @@
             </div>
         </div>
         <!-- second header -->
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12">
                     <!-- navbar -->
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item dropdown px-3">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="fa fa-bars" aria-hidden="true"></i>
-                                        Semua Kategori
+                                        <i class="fa fa-bars a-none d-sm-inline" aria-hidden="true"></i>
+                                         Semua Kategori
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="#">Sample</a>
@@ -85,7 +90,7 @@
                                 </li>
                                 <li class="nav-item active px-3">
                                     <a class="nav-link" href="#">
-                                        <i class="fas fa-home fa-2x"></i>
+                                        <i class="Home"></i><p>Home</p>
                                         <span class="sr-only">(current)</span></a>
                                 </li>
                             </ul>
@@ -99,7 +104,7 @@
     <!-- intro section -->
     <section class="container" id="intro">
         <div class="row">
-            <div class="col-12">
+            <div class="col-sm-12">
                 <div id="carousel-Control" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -132,18 +137,18 @@
             <div class="card-body">
                 <div class="container">
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-sm-12 col-lg-4">
                             <i class="fas fa-tv fa-3x mb-sm-3 "></i>
                             <h3>Belanja Jadi Lebih Mudah</h3>
                             <p>Belanja Jadi Lebih Mudah Belanja Jadi Lebih Mudah Belanja Jadi Lebih Mudah Belanja Jadi Lebih Mudah Belanja Jadi Lebih Mudah Belanja Jadi Lebih Mudah Belanja Jadi Lebih Mudah</p>
                         </div>
-                        <div class="col-4">
+                        <div class="col-sm-12 col-lg-4">
                             <i class="fas fa-money-bill-wave fa-3x mb-sm-3"></i>
                             <h3>Ongkos Kirim Yang Murah</h3>
                             <p>Ongkos Kirim Yang Murah Ongkos Kirim Yang Murah Ongkos Kirim Yang Murah Ongkos Kirim Yang Murah Ongkos Kirim Yang Murah Ongkos Kirim Yang Murah</p>
                             
                         </div>
-                        <div class="col-4">
+                        <div class="col-sm-12 col-lg-4 ">
                             <i class="fas fa-handshake fa-3x mb-sm-3"></i>
                             <h3>Aman dan Terpercaya</h3>
                             <p>Produk-produk yang kami masukan semua dalam keadaan terawat dan mempunyai lisensi yang terpercaya dan jaminan produk akan sampai ke tangan konsumen dengan keadaan fresh</p>
@@ -155,49 +160,49 @@
     </div>
     <!-- popular section -->
     <section class="container">
-        <h3 class="mt-sm-4">Produk terpopoler</h3>
+        <h3 class="mt-4">Produk terpopoler</h3>
         <div class="row">
-            <div class="col-3">
+            <div class="col-sm-12 col-lg-3">
                 <div class="card">
-                    <a href="http://"><img class="img-fluid" src="asset/images/osis.jpg" alt="" ></a>
-                    <h4 class="ml-sm-3">OSIS GIRL & Trouble maker</h4>
+                    <a href="#"><img class="img-fluid" src="asset/images/osis.jpg" alt="kami" ></a>
+                    <h4 class="ml-3">OSIS GIRL & Trouble maker</h4>
                     <span class="pl-3 text muted">739k terjual</span>
                     <div class="clearfix"></div>
                     <div class="harga">
-                        <button type="button" class="btn btn-secondary ml-sm-4">Rp.54.000,00</button>
+                        <button type="button" class="btn btn-secondary ml-4">Rp.54.000,00</button>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-sm-12 col-lg-3">
                 <div class="card">
-                    <a href="http://"><img class="img-fluid" src="asset/images/raja.jpg" alt="" ></a>
-                    <h4 class="ml-sm-3">Raja Untuk Ratu<br><br></h4>
+                    <a href="#"><img class="img-fluid" src="asset/images/raja.jpg" alt="prev" ></a>
+                    <h4 class="ml-3">Raja Untuk Ratu<br><br></h4>
                     <span class="pl-3 text muted">706k terjual</span>
                     <div class="clearfix"></div>
                     <div class="harga">
-                        <button type="button" class="btn btn-secondary ml-sm-4">Rp.54.000,00</button>
+                        <button type="button" class="btn btn-secondary ml-4">Rp.54.000,00</button>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-sm-12 col-lg-3">
                 <div class="card">
-                    <a href="http://"><img class="img-fluid" src="asset/images/ipavips.jpg" alt="" ></a>
-                    <h4 class="ml-sm-3">Ipa v Ips <br><br></h4>
+                    <a href="#"><img class="img-fluid" src="asset/images/ipavips.jpg" alt="jpg" ></a>
+                    <h4 class="ml-3">Ipa v Ips <br><br></h4>
                     <span class="pl-3 text muted">670k terjual</span>
                     <div class="clearfix"></div>
                     <div class="harga">
-                        <button type="button" class="btn btn-secondary ml-sm-4">Rp.54.000,00</button>
+                        <button type="button" class="btn btn-secondary ml-4">Rp.54.000,00</button>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-sm-12 col-lg-3">
                 <div class="card">
-                    <a href="http://"><img class="img-fluid" src="asset/images/yours.jpg" alt="" ></a>
-                    <h4 class="ml-sm-3">Im yours<br><br></h4>
+                    <a href="#"><img class="img-fluid" src="asset/images/yours.jpg" alt="kami" ></a>
+                    <h4 class="ml-3">Im yours<br><br></h4>
                     <span class="pl-3 text muted">570k terjual</span>
                     <div class="clearfix"></div>
                     <div class="harga">
-                        <button type="button" class="btn btn-secondary ml-sm-4">Rp.54.000,00</button>
+                        <button type="button" class="btn btn-secondary ml-4">Rp.54.000,00</button>
                     </div>
                 </div>
             </div>
@@ -207,49 +212,49 @@
     </section>
     <!-- arrival section -->
        <section class="container">
-        <h3 class="mt-sm-4">Produk Terbaru</h3>
+        <h3 class="mt-4">Produk Terbaru</h3>
         <div class="row">
-            <div class="col-3">
+            <div class="col-sm-12 col-lg-3">
                 <div class="card">
-                    <a href="http://"><img class="img-fluid" src="asset/images/osis.jpg" alt="" ></a>
-                    <h4 class="ml-sm-3">OSIS GIRL & Trouble maker</h4>
+                    <a href="#"><img class="img-fluid" src="asset/images/osis.jpg" alt="prev" ></a>
+                    <h4 class="ml-3">OSIS GIRL & Trouble maker</h4>
                     <span class="pl-3 text muted">739k terjual</span>
                     <div class="clearfix"></div>
                     <div class="harga">
-                        <button type="button" class="btn btn-secondary ml-sm-4">Rp.54.000,00</button>
+                        <button type="button" class="btn btn-secondary ml-4 ">Rp.54.000,00</button>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class=" col-sm-12 col-lg-3">
                 <div class="card">
-                    <a href="http://"><img class="img-fluid" src="asset/images/raja.jpg" alt="" ></a>
-                    <h4 class="ml-sm-3">Raja Untuk Ratu<br><br></h4>
+                    <a href="#"><img class="img-fluid" src="asset/images/raja.jpg" alt="]" ></a>
+                    <h4 class="ml-3">Raja Untuk Ratu<br><br></h4>
                     <span class="pl-3 text muted">706k terjual</span>
                     <div class="clearfix"></div>
                     <div class="harga">
-                        <button type="button" class="btn btn-secondary ml-sm-4">Rp.54.000,00</button>
+                        <button type="button" class="btn btn-secondary ml-4">Rp.54.000,00</button>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-sm-12 col-lg-3">
                 <div class="card">
-                    <a href="http://"><img class="img-fluid" src="asset/images/osis.jpg" alt="" ></a>
-                    <h4 class="ml-sm-3">OSIS GIRL & Trouble maker</h4>
+                    <a href="#"><img class="img-fluid" src="asset/images/osis.jpg" alt="li" ></a>
+                    <h4 class="ml-3">OSIS GIRL & Trouble maker</h4>
                     <span class="pl-3 text muted">670k terjual</span>
                     <div class="clearfix"></div>
                     <div class="harga">
-                        <button type="button" class="btn btn-secondary ml-sm-4">Rp.54.000,00</button>
+                        <button type="button" class="btn btn-secondary ml-4">Rp.54.000,00</button>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-sm-12 col-lg-3">
                 <div class="card">
-                    <a href="http://"><img class="img-fluid" src="asset/images/yours.jpg" alt="" ></a>
-                    <h4 class="ml-sm-3">Im yours<br><br></h4>
+                    <a href="#"><img class="img-fluid" src="asset/images/yours.jpg" alt="#" ></a>
+                    <h4 class="ml-3">Im yours<br><br></h4>
                     <span class="pl-3 text muted">570k terjual</span>
                     <div class="clearfix"></div>
                     <div class="harga">
-                        <button type="button" class="btn btn-secondary ml-sm-4">Rp.54.000,00</button>
+                        <button type="button" class="btn btn-secondary ml-4">Rp.54.000,00</button>
                     </div>
                 </div>
             </div>
@@ -258,26 +263,77 @@
     
     </section>
   <!-- recommendation section -->
+  <section class="container">
+    <h3 class="mt-4">Rekomendasi</h3>
+    <div class="row">
+        <div class="col-sm-12 col-lg-3">
+            <div class="card">
+                <a href="#"><img class="img-fluid" src="asset/images/osis.jpg" alt="prev" ></a>
+                <h4 class="ml-3">OSIS GIRL & Trouble maker</h4>
+                <span class="pl-3 text muted">739k terjual</span>
+                <div class="clearfix"></div>
+                <div class="harga">
+                    <button type="button" class="btn btn-secondary ml-4">Rp.54.000,00</button>
+                </div>
+            </div>
+        </div>
+        <div class=" col-sm-12 col-lg-3">
+            <div class="card">
+                <a href="#"><img class="img-fluid" src="asset/images/raja.jpg" alt="]" ></a>
+                <h4 class="ml-3">Raja Untuk Ratu<br><br></h4>
+                <span class="pl-3 text muted">706k terjual</span>
+                <div class="clearfix"></div>
+                <div class="harga">
+                    <button type="button" class="btn btn-secondary ml-4">Rp.54.000,00</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-3">
+            <div class="card">
+                <a href="#"><img class="img-fluid" src="asset/images/osis.jpg" alt="li" ></a>
+                <h4 class="ml-sm-3">OSIS GIRL & Trouble maker</h4>
+                <span class="pl-3 text muted">670k terjual</span>
+                <div class="clearfix"></div>
+                <div class="harga">
+                    <button type="button" class="btn btn-secondary ml-sm-4">Rp.54.000,00</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-3">
+            <div class="card">
+                <a href="#"><img class="img-fluid" src="asset/images/yours.jpg" alt="#" ></a>
+                <h4 class="ml-sm-3">Im yours<br><br></h4>
+                <span class="pl-3 text muted">570k terjual</span>
+                <div class="clearfix"></div>
+                <div class="harga">
+                    <button type="button" class="btn btn-secondary ml-sm-4">Rp.54.000,00</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
 
   <!-- patner section -->
   <section class="container">
-      <h3 class="mt-sm-3">Mitra Kami</h3>
+      <h3 class="mt-3">Mitra Kami</h3>
       <div class="row">
           <div class="col-2">
             <figure class="figure">
-                <img src="asset/images/Gramedia.jpg" class="figure-img img-fluid rounded" alt="...">
+                <img src="asset/images/Gramedia.jpg" class="figure-img img-fluid rounded" alt="h3">
                 <figcaption class="figure-caption text-uppercast">Gramedia</figcaption>
               </figure>
           </div>
           <div class="col-2">
             <figure class="figure">
-                <img src="asset/images/mnc.png" class="figure-img img-fluid rounded" alt="...">
+                <img src="asset/images/mnc.png" class="figure-img img-fluid rounded" alt="#">
                 <figcaption class="figure-caption text-uppercast">m&c!</figcaption>
               </figure>
           </div>
           <div class="col-2">
             <figure class="figure">
-                <img src="asset/images/coco.png" class="figure-img img-fluid rounded" alt="...">
+                <img src="asset/images/coco.png" class="figure-img img-fluid rounded" alt="#">
                 <figcaption class="figure-caption text-uppercast">Coconut books</figcaption>
               </figure>
           </div>
@@ -287,12 +343,12 @@
       </div>
   </section>
   <!-- App section -->
-  <section class="container-fluid mt-sm-4  p-5 bg-light">
+  <section class="container-fluid mt-4  p-5 bg-light">
       <h3>download App</h3>
       <div class="row">
           <div class="col-12">
-              <a href="http://"> <img style="height: 57px;" src="asset/images/Google-play-logo.jpg" alt="google" srcset=""></a>
-              <a href="http://"> <img style="height: 57px;" src="asset/images/App_Store_logo.png" alt="appstore" srcset=""></a>
+              <a href="#"> <img style="height: 57px;" src="asset/images/Google-play-logo.jpg" alt="google"></a>
+              <a href="#"> <img style="height: 57px;" src="asset/images/App_Store_logo.png" alt="appstore"></a>
           </div>
       </div>
   </section>
@@ -302,41 +358,41 @@
             <div class="col-3">
                 <h4>Informasi</h4>
                 <ul class="list-unstyled">
-                    <li><a href="http://">Tentang Kami</a></li>
-                    <li><a href="http://">Informasi Pengiriman</a></li>
-                    <li><a href="http://">Cara belanja</a></li>
-                    <li><a href="http://">Cara Pembayaran</a></li>
-                    <li><a href="http://">Tent</a></li>
+                    <li><a href="#">Tentang Kami</a></li>
+                    <li><a href="#">Informasi Pengiriman</a></li>
+                    <li><a href="#">Cara belanja</a></li>
+                    <li><a href="#">Cara Pembayaran</a></li>
+                    <li><a href="#">Tent</a></li>
                 </ul>
             </div>
             <div class="col-3">
                 <h4>Informasi</h4>
                 <ul class="list-unstyled">
-                    <li><a href="http://">Tentang Kami</a></li>
-                    <li><a href="http://">Informasi Pengiriman</a></li>
-                    <li><a href="http://">Cara belanja</a></li>
-                    <li><a href="http://">Cara Pembayaran</a></li>
-                    <li><a href="http://">Tent</a></li>
+                    <li><a href="#">Tentang Kami</a></li>
+                    <li><a href="#">Informasi Pengiriman</a></li>
+                    <li><a href="#">Cara belanja</a></li>
+                    <li><a href="#">Cara Pembayaran</a></li>
+                    <li><a href="#">Tent</a></li>
                 </ul>
             </div>
             <div class="col-3">
                 <h4>Informasi</h4>
                 <ul class="list-unstyled">
-                    <li><a href="http://">Tentang Kami</a></li>
-                    <li><a href="http://">Informasi Pengiriman</a></li>
-                    <li><a href="http://">Cara belanja</a></li>
-                    <li><a href="http://">Cara Pembayaran</a></li>
-                    <li><a href="http://">Tent</a></li>
+                    <li><a href="#">Tentang Kami</a></li>
+                    <li><a href="#">Informasi Pengiriman</a></li>
+                    <li><a href="#">Cara belanja</a></li>
+                    <li><a href="#">Cara Pembayaran</a></li>
+                    <li><a href="#">Tent</a></li>
                 </ul>
             </div>
             <div class="col-3">
                 <h4>Informasi</h4>
                 <ul class="list-unstyled">
-                    <li><a href="http://">Tentang Kami</a></li>
-                    <li><a href="http://">Informasi Pengiriman</a></li>
-                    <li><a href="http://">Cara belanja</a></li>
-                    <li><a href="http://">Cara Pembayaran</a></li>
-                    <li><a href="http://">Tent</a></li>
+                    <li><a href="#">Tentang Kami</a></li>
+                    <li><a href="#">Informasi Pengiriman</a></li>
+                    <li><a href="#">Cara belanja</a></li>
+                    <li><a href="#">Cara Pembayaran</a></li>
+                    <li><a href="#">Tent</a></li>
                 </ul>
             </div>
         </div>
